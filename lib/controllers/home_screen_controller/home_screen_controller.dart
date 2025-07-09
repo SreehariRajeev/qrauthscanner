@@ -18,7 +18,7 @@ class HomeScreenController extends GetxController {
   @override
   void onInit() {
     // TODO: implement onInit
-    token = Get.arguments["token"];
+    token = Get.arguments;
     getUserDetails();
     super.onInit();
   }

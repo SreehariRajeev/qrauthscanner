@@ -8,7 +8,6 @@ class ScanQrScreen extends StatelessWidget {
   final AuthScreenController controller = Get.find();
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
   Barcode? result;
-  QRViewController? qrController;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
