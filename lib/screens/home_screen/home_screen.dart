@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
     return GetBuilder<HomeScreenController>(
       builder: (controller) {
         return Scaffold(
-          appBar: AppBar(title: Text("Home")),
+          appBar: AppBar(title: Text("HOME")),
           body:
               controller.isLoading
                   ? CircularProgressIndicator.adaptive()
