@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
     return GetBuilder<HomeScreenController>(
       builder: (controller) {
         return Scaffold(
-          appBar: AppBar(title: Text("Home")),
+          appBar: AppBar(title: Text("HOME")),
           body:
               controller.isLoading
                   ? CircularProgressIndicator.adaptive()
@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                             Text(
                               controller.userDetails["name"],
                               style: TextStyle(
-                                fontSize: 20,
+                                fontSize: 22,
                                 color: Colors.blueGrey,
                                 fontWeight: FontWeight.w700,
                               ),
