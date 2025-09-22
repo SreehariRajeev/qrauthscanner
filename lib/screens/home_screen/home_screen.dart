@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                             Text(
                               controller.userDetails["name"],
                               style: TextStyle(
-                                fontSize: 20,
+                                fontSize: 22,
                                 color: Colors.blueGrey,
                                 fontWeight: FontWeight.w700,
                               ),
